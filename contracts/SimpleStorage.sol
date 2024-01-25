@@ -11,7 +11,11 @@ contract SimpleStorage {
 
     function store (uint256 _favoriteNumber) public {
         favoriteNumber = _favoriteNumber;
-        favoriteNumber = favoriteNumber + 1;
+        uint256 tesVar = 5;
+    }
+
+    function something() public {
+        tesVar = 6;
     }
 } 
 
