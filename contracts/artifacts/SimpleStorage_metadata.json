@@ -20,9 +20,15 @@
 			},
 			{
 				"inputs": [],
-				"name": "something",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -67,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0xc82e6c7de9fee2a030fabd8bb1541e485377e94dddafe9342b64c23b6bec4afe",
+			"keccak256": "0xce1ea1a5503bf9e464651c7ee9011ad024f457ad5f7c1e43e9b699d239834901",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6caeae63ada239b1e29c44f1aa64c0d35a4f577515b8d49527bc8ba03905756b",
-				"dweb:/ipfs/QmZRDpZ4uuZLddcQjSGNnNoY3bZKgsT3DxzY8t14HepT8f"
+				"bzz-raw://648b41455c04b845d5ba7dd84a72d40c65154f74da57e467cb94875a3b21834c",
+				"dweb:/ipfs/Qmdu7guaAGiSerzbLpdvhoMJUuaCGDwEVnxnuXbnQBZHp6"
 			]
 		}
 	},
