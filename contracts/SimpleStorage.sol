@@ -14,9 +14,7 @@ contract SimpleStorage {
         return favoriteNumber;
     }
 
-    // function add() public  pure returns (uint256) {
-    //     return (1 + 1);
-    // }
+    
 } 
 
 
