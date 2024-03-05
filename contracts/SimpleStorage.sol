@@ -1,10 +1,7 @@
 
 pragma solidity >=0.8.8;
 
-contract SimpleStorage {
-    
-    
-    // address myAddress = 0x6DaeA8245E381ac1B2B6C3AF8A2A8e7c58eB1CA4;
+contract SimpleStorage {
     uint public favoriteNumber;
 
     function store (uint256 _favoriteNumber) public {
