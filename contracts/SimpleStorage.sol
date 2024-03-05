@@ -1,8 +1,7 @@
 
 pragma solidity >=0.8.8;
 
-contract SimpleStorage {
-    // bool hasFavoriteNumber = false;
+contract SimpleStorage {
     // string favoriteNumberInText = "Five";
     // int favoriteInt = -5;
     // address myAddress = 0x6DaeA8245E381ac1B2B6C3AF8A2A8e7c58eB1CA4;
